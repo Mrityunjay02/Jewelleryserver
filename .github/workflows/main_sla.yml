@@ -58,7 +58,7 @@ jobs:
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v3
         with:
-          app-name: 'sla'
+          app-name: 'srilaxmialankar'
           slot-name: 'Production'
           package: .
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_2A8D8257A0E14FE99F0FF27AAB0613E3 }}
